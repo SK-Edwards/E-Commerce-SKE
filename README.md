@@ -11,7 +11,7 @@ This was an assignment from my coding bootcamp, which.
 
 The requirements for the back end of a E-Commerce app were as follows:
 
-![*:]()
+![*:][()](https://github.com/SK-Edwards/E-Commerce-SKE/blob/main/images/Screenshot%202023-05-14%20214604.png?raw=true)
 
 I
 Click on this link to see a live demo of the app.
