@@ -9,7 +9,7 @@ Category.findAll({attributes: ['id', 'category_name'],
   include: [
     {
       model: Product,
-      attribute: ['id', 'product_name', 'price', 'stock', 'category_id']
+      attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
     }]
   })
   .then((categoryData) => {
@@ -91,7 +91,7 @@ Category.update(req.body, {
 
 router.delete('/:id', (req, res) => {
   // delete a category by its `id` value
-Category.destroy(req.body, {
+Category.destroy({
   where: {
     id: req.params.id
   }
